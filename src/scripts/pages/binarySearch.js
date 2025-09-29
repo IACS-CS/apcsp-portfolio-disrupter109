@@ -13,8 +13,8 @@ export function renderBinarySearch() {
       <hr>
       <p>My project was super fun, I worked hard on it!</p>
       ${renderIframe(
-        "https://placehold.co/600x400?text=Your+Project+Here",
-        "My Project Title"
+        "https://iacs-cs.github.io/binary-search-jayden-and-mason/",
+        "Naruto Binary Search"
       )}
     </article>
     <!-- end code generated in binarySearch.js -->
