@@ -5,12 +5,14 @@ export function renderMenu() {
     <!-- code generated in renderMenu.js -->
     <nav>
       <ul>
-        <li><a href="#/">Home</a></li>
-        <div class="profile-text-projects">
-        <li><a href="#/binary-search">Binary Search Project</a></li>
+        <div class="profile-text-home">
+        <a href="#/">Home</a>
         </div>
         <div class="profile-text-projects">
-        <li><a href="#/citations">Project Citations</a></li>
+        <a href="#/binary-search">Binary Search Project</a>
+        </div>
+        <div class="profile-text-projects">
+        <a href="#/citations">Project Citations</a>
         </div>
       </ul>
     </nav>

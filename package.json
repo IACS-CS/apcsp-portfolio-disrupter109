@@ -15,7 +15,10 @@
     "vite": "^5.0.0"
   },
   "dependencies": {
+    "@picocss/pico": "^2.1.1",
     "animejs": "^4.2.0",
+    "aos": "^2.3.4",
+    "pico": "^0.1.17",
     "text-interface": "^1.1.0"
   }
 }

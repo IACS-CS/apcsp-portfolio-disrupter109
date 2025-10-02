@@ -13,14 +13,25 @@ body {
 
 .profile-text{
   background: #CBCBCB;
+  --pico-color:#242020;
   padding: 16px;
   border-radius: 12px;
 }
 /*after this is my own work based on what mason taught me*/
 .profile-text-projects{
+  text-align:center;
   background: #ADD8E6;
+  --pico-color:#000000;
   padding:20px;
   border-radius: 12px;
+
+}
+.profile-text-home{
+  text-align: end;
+  background: #CBCBCB;
+  padding: 20px;
+  border-radius:15px;
+  gap: 20px;
 }
 /*need to find out how to center it and stuff*/
 
