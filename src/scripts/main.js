@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 AOS.init();
 /* Start the router (this lets us show different pages -- see 
 router.js) */
+
 startRouter();
 //help from copilot to set up buttons
 document.addEventListener("DOMContentLoaded", function () {

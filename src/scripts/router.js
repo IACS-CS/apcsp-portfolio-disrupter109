@@ -15,6 +15,8 @@ export function route(path) {
     return renderCitations();
   } else if (path==="/dev"){ 
     return renderDev();
+  } else if (path==="/project-2"){
+    return renderProject2();
   } else {
     return `<h1>Lock in buddy this page doesn't exist</h1><a href="#/">Back Home</a>`;
   }

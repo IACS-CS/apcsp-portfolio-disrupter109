@@ -5,22 +5,22 @@ export function renderMenu() {
     <!-- code generated in renderMenu.js -->
     <nav>
       <ul>
-        <div class="button">
-        <a href="#/">Home</a>
+        <div>
+        <a href="#/" class="button">Home</a>
         </div>
-        <div class="button">
-        <a href="#/binary-search">Binary Search Project</a>
+        <div>
+        <a href="#/binary-search" class="button">Binary Search Project</a>
         </div>
-        <div class="button">
-        <a href="#/citations">Project Citations</a>
+        <div>
+        <a href="#/project-2" class="button">Project Number 2</a>
         </div>
-      </ul>
-    </nav>
-    <nav>
-      <ul>
-         <div>
+        <div>
+        <a href="#/citations" class="button">Project Citations</a>
+        </div>
+        <div>
           <button id="mode-toggle">Toggle Light/Dark</button>
         </div>
+  
       </ul>
     </nav>
     <!-- end code generated in renderMenu.js -->

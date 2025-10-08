@@ -7,12 +7,12 @@ body {
 }
 /*copilot helped but it doesnt work */
 :root {
-  --pico-background-color: #D5FFFF;
-  --pico-color: #222;
+  --pico-background-color: #D5FFFF !important;
+  --pico-color: #222 !important;
 }
-[data-theme="dark"] {
-  --pico-background-color: #C4A484;
-  --pico-color: #222;
+:root[data-theme="dark"] {
+  --pico-background-color: #C4A484 !important;
+  --pico-color: #222 !important;
 }
 
 /*help from mason below*/
@@ -25,11 +25,16 @@ body {
 
 .button {
   background-color: #ADD8E6;
-  color rgb(0,0,0);
-  border-radius: 200px;
+  color: rgb(0,0,0);
+  border-radius: 500px;
+  padding: 15px;
   cursor:pointer;
+  text-decoration: none;
 }
 
+.fixed-article {
+  background: #CBCBCB !important;
+}
 .profile-text{
   background: #CBCBCB;
   --pico-color:#242020;

@@ -1,15 +1,14 @@
-// src/scripts/pages/binarySearch.js
 import { renderMenu } from "../utils/renderMenu.js";
 import { renderIframe } from "../utils/renderIframe.js";
 
-export function renderBinarySearch() {
+export function renderProject2(){
   /* html */
   return `
     <!-- code generated in binarySearch.js -->
-    <h1>Binary Search Project</h1>    
+    <h1>Second Project</h1>    
     ${renderMenu()}
-    <article class="fixed-article">
-      <p>Assignment: Create a program built on the concept of binary search</p>
+    <article>
+      <p>Assignment: Create a program ...</p>
       <hr>
       <p>My project was super fun, I worked hard on it!</p>
       ${renderIframe(
