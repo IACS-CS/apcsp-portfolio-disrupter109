@@ -6,7 +6,7 @@ export function renderMenu() {
     <nav>
       <ul>
         <div>
-        <a href="#/" class="button">Home</a>
+        <a data-aos="zoom-in" href="#/" class="button">Home</a>
         </div>
         <div>
         <a href="#/binary-search" class="button">Binary Search Project</a>

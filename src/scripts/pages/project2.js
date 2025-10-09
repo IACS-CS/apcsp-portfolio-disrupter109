@@ -7,7 +7,7 @@ export function renderProject2(){
     <!-- code generated in binarySearch.js -->
     <h1>Second Project</h1>    
     ${renderMenu()}
-    <article>
+    <article class="fixed-article">
       <p>Assignment: Create a program ...</p>
       <hr>
       <p>My project was super fun, I worked hard on it!</p>

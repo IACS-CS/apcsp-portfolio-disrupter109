@@ -11,7 +11,7 @@ export function renderBinarySearch() {
     <article class="fixed-article">
       <p>Assignment: Create a program built on the concept of binary search</p>
       <hr>
-      <p>My project was super fun, I worked hard on it!</p>
+      <p>In this project Mason and I worked together to create a program that would guess your Naruto character based off a list of 49 characters.</p>
       ${renderIframe(
         "https://iacs-cs.github.io/binary-search-jayden-and-mason/",
         "Naruto Binary Search"
