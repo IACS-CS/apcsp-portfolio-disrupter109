@@ -3,7 +3,8 @@ import { renderWelcome } from "./pages/welcome.js";
 import { renderBinarySearch } from "./pages/binarySearch.js";
 import { renderCitations } from "./pages/citations.js";
 import { renderDev } from "./pages/Dev.js";
-import { renderProject2 } from "./pages/project2.js";
+import { renderProject3 } from "./pages/project3.js";
+import { renderAPCSP } from "./pages/APCSP.js";
 
 /* route takes a path and chooses which page to render.
 It is called each time the user clicks on a navigation link */
@@ -12,12 +13,14 @@ export function route(path) {
     return renderWelcome();
   } else if (path === "/binary-search") {
     return renderBinarySearch();
-  } else if (path==="/citations"){
+  } else if (path === "/citations") {
     return renderCitations();
-  } else if (path==="/dev"){ 
+  } else if (path === "/dev") {
     return renderDev();
-  } else if (path==="/project-2"){
-    return renderProject2();
+  } else if (path === "/project-3") {
+    return renderProject3();
+  } else if (path === "/APCSP") {
+    return renderAPCSP();
   } else {
     return `<h1>Lock in buddy this page doesn't exist</h1><a href="#/">Back Home</a>`;
   }

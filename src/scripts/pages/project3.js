@@ -1,7 +1,7 @@
 import { renderMenu } from "../utils/renderMenu.js";
 import { renderIframe } from "../utils/renderIframe.js";
 
-export function renderProject2(){
+export function renderProject3(){
   /* html */
   return `
     <!-- code generated in binarySearch.js -->
