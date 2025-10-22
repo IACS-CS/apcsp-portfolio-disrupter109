@@ -6,7 +6,7 @@ export function renderMenu() {
     <nav>
       <ul>
         <div>
-        <a data-aos="zoom-in" href="#/" class="button">Home</a>
+        <a href="#/" class="button">Home</a>
         </div>
         <div>
         <a href="#/binary-search" class="button">Binary Search Project</a>
@@ -30,3 +30,4 @@ export function renderMenu() {
   `;
 }
 //copilot helped me with the light/dark button
+//data-aos="zoom-in"

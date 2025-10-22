@@ -57,5 +57,10 @@ body {
   border-radius:15px;
   gap: 20px;
 }
+.container {
+  border: 2px dashed #6d6d6d;
+  background: #6d6d6d;
+}
+
 /*need to find out how to center it and stuff*/
 

@@ -6,6 +6,7 @@ import { renderDev } from "./pages/Dev.js";
 import { renderProject3 } from "./pages/project3.js";
 import { renderAPCSP } from "./pages/APCSP.js";
 
+
 /* route takes a path and chooses which page to render.
 It is called each time the user clicks on a navigation link */
 export function route(path) {

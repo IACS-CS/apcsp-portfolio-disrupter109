@@ -1,7 +1,8 @@
+import "@picocss/pico/css/pico.min.css"
 import "../styles/styles.css";
 import { startRouter } from "./router.js";
 //using what mason told me
-import "@picocss/pico/css/pico.min.css"
+
 //help from copilot
 import AOS from "aos";
 import "aos/dist/aos.css";
